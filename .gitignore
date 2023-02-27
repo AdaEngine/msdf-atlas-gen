@@ -23,3 +23,6 @@
 output.png
 out/
 /cmake-gen.bat
+
+.swiftpm/
+.build/
