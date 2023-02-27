@@ -1,4 +1,4 @@
-module CFreeType {
+module msdfgen {
     header "msdfgen.h"
     export *
 }
