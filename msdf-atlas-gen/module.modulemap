@@ -1,8 +1,5 @@
 module MSDFAtlasGen {
-    
-    link "../msdfgen"
-    
-    umbrella header "msdf_atlas_gen.h"
+    header "msdf_atlas_gen.h"
     
     export *
     

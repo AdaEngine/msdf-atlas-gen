@@ -3,6 +3,9 @@
 
 import PackageDescription
 
+// TODO: return zlib https://github.com/godotengine/godot/issues/24287
+// here: msdf-atlas-gen/freetype/include/freetype/config/ftoption.h
+
 let package = Package(
     name: "msdf-atlas-gen",
     platforms: [
@@ -12,7 +15,7 @@ let package = Package(
     products: [
         .library(
             name: "MSDFAtlasGen",
-            targets: ["msdf-atlas-gen"]
+            targets: ["msdf-atlas-gen", "msdfgen", "freetype"]
         )
     ],
     targets: [
