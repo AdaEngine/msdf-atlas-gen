@@ -1,4 +1,8 @@
 module msdfgen {
     header "msdfgen.h"
+    header "msdfgen-ext.h"
+    
     export *
+    
+    requires cplusplus
 }

@@ -1,0 +1,6 @@
+module tinyxml {
+    header "tinyxml2.h"
+    export *
+    
+    requires cplusplus
+}
