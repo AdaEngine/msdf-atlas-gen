@@ -6,11 +6,12 @@
 #include "types.h"
 #include "Rectangle.h"
 #include "GlyphBox.h"
+#include "SwiftBridging.h"
 
 namespace msdf_atlas {
 
 /// Represents the shape geometry of a single glyph as well as its configuration
-class GlyphGeometry {
+class AS_SWIFT_CLASS GlyphGeometry {
 
 public:
     GlyphGeometry();

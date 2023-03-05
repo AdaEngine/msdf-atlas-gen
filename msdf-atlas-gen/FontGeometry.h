@@ -10,8 +10,11 @@
 #include "types.h"
 #include "GlyphGeometry.h"
 #include "Charset.h"
+#include "SwiftBridging.h"
 
 #define MSDF_ATLAS_DEFAULT_EM_SIZE 32.0
+
+using GlyphGeometryVector = std::vector<msdf_atlas::GlyphGeometry>;
 
 namespace msdf_atlas {
 

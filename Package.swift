@@ -15,12 +15,12 @@ let package = Package(
     products: [
         .library(
             name: "MSDFAtlasGen",
-            targets: ["msdf-atlas-gen", "msdfgen", "freetype"]
+            targets: ["MSDFAtlasGen"]
         )
     ],
     targets: [
         .target(
-            name: "msdfgen",
+            name: "MSDFGen",
             dependencies: [
                 "freetype",
                 "tinyxml"
@@ -29,12 +29,13 @@ let package = Package(
             publicHeadersPath: ".",
             cxxSettings: [
                 .define("MSDFGEN_USE_CPP11"),
+                .headerSearchPath("..")
             ]
         ),
         .target(
-            name: "msdf-atlas-gen",
+            name: "MSDFAtlasGen",
             dependencies: [
-                "msdfgen"
+                "MSDFGen"
             ],
             path: "msdf-atlas-gen",
             publicHeadersPath: ".",

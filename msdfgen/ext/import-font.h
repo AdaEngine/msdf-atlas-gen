@@ -3,16 +3,17 @@
 
 #include <cstdlib>
 #include "../core/Shape.h"
+#include "../core/SwiftBridging.h"
 
 namespace msdfgen {
 
 typedef unsigned char byte;
 typedef unsigned unicode_t;
 
-class FreetypeHandle;
-class FontHandle;
+class AS_SWIFT_CLASS FreetypeHandle;
+class AS_SWIFT_CLASS FontHandle;
 
-class GlyphIndex {
+class AS_SWIFT_CLASS GlyphIndex {
 
 public:
     explicit GlyphIndex(unsigned index = 0);

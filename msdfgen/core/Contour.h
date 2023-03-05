@@ -3,11 +3,12 @@
 
 #include <vector>
 #include "EdgeHolder.h"
+#include "SwiftBridging.h"
 
 namespace msdfgen {
 
 /// A single closed contour of a shape.
-class Contour {
+class AS_SWIFT_CLASS Contour {
 
 public:
     /// The sequence of edges that make up the contour.
