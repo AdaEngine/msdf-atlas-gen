@@ -3,6 +3,4 @@ module msdfgen {
     header "msdfgen-ext.h"
     
     export *
-    
-    requires cplusplus
 }

@@ -2,6 +2,4 @@ module MSDFAtlasGen {
     header "msdf_atlas_gen.h"
     
     export *
-    
-    requires cplusplus
 }
