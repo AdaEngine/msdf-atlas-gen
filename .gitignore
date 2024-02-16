@@ -26,3 +26,7 @@ out/
 
 .swiftpm/
 .build/
+
+# Ignore bazel symlinks
+/bazel-*
+/MODULE.bazel.lock
